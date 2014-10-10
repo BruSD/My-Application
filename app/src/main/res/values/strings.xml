@@ -9,9 +9,9 @@
     <string name="Third_lesson_activity_title">List View|| Custom Item and Res</string>
     <string name="button_1_text">Start Second Activity</string>
     <string name="button_2_text">Start Activity from Third Lesson</string>
-
+    <string name="button_start_fragment_Activity_text">Start Activity withFragment</string>
     <string name="item_string_name">Name:</string>
     <string name="item_string_second_name">Second Name:</string>
-
+    <string name="title_activity_fragment_activity_dual_orientation">ActivityFragmentDualOrientation</string>
 
 </resources>

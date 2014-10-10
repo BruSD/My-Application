@@ -10,6 +10,9 @@ public class Student {
     //tell
     //email
     //age
+    public String nameS;
+    public String sNameS;
+
 
 
 }

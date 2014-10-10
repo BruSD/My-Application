@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="test.test.myapplication" >
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -22,15 +22,17 @@
             android:name=".Activity2"
             android:label="@string/title_activity_my_activity2" >
         </activity>
-
         <activity
             android:name=".ThirdLessonActivity"
             android:label="@string/title_activity_my_activity2" >
         </activity>
-
         <activity
             android:name=".AsyncActivity"
             android:label="@string/title_activity_my_activity2" >
+        </activity>
+        <activity
+            android:name=".FragmentActivityDualOrientation"
+            android:label="@string/title_activity_fragment_activity_dual_orientation" >
         </activity>
     </application>
 

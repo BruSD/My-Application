@@ -34,12 +34,7 @@ public class ThirdLessonActivity extends Activity {
         studentAdapter =  new StudentAdapter(this, student, R.layout.item_list_view_layout, null, null );
         listView.setAdapter(studentAdapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-            }
-        });
     }
 
     private void generateStudentList() {
@@ -54,12 +49,17 @@ public class ThirdLessonActivity extends Activity {
         item.put("name", "Михайло");
         item.put("sname", "Тромбола ");
         student.add(item);
+
+        item =  new HashMap<String, String>();
         item.put("name", "Олександр");
         item.put("sname", "Мікуланінець ");
-         student.add(item);
+        student.add(item);
+
+        item =  new HashMap<String, String>();
         item.put("name", "Іван");
         item.put("sname", "Фельцан ");
         student.add(item);
+
         item.put("name", "Михайло");
         item.put("sname", "Рогач ");
         student.add(item);

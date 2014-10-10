@@ -23,9 +23,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/fragment_activity"
+        android:text="@string/button_start_fragment_Activity_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <TextView
         android:layout_weight="1"
-        android:layout_below="@id/btn_2"
+
         android:text="@string/hello_world"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
